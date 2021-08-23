@@ -1,0 +1,202 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: serif;
+	line-height: 1.7em;
+	background-color: rgb(158, 153, 153);
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+	padding-bottom: 20px;
+}
+
+p {
+	margin: 10px 0px;
+	padding: 2px 10px;
+	border: 1px solid rgb(155, 159, 160);
+	margin: 20px;
+}
+
+.container {
+	margin: auto;
+	max-width: 1100px;
+	overflow: auto;
+	padding: 0px 20px;
+}
+
+#nav-bar {
+	background-color: gray;
+	color: white;
+	overflow: auto;
+}
+
+#nav-bar a {
+	color: white;
+}
+
+#nav-bar h1 {
+	float: left;
+	padding-top: 20px;
+}
+
+#nav-bar ul {
+	list-style: none;
+	float: right;
+}
+
+#nav-bar li {
+	float: left;
+}
+
+#nav-bar li a {
+	display: block;
+	padding: 20px;
+	text-align: center;
+}
+
+#nav-bar ul li a:hover,
+#nav-bar ul li a.current {
+	background: rgb(160, 150, 150);
+	color: rgb(206, 118, 77);
+}
+
+.form {
+	color: rgb(221, 210, 210);
+	height: 70vh;
+	position: relative;
+	font-size: 40px;
+	font-style: italic;
+}
+
+.form:before {
+	content: "";
+	background: url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/7337a248382891.5896a4c52ff71.jpg")
+		no-repeat center center/cover;
+	position: absolute;
+	top: 5;
+	left: 50;
+	width: 100%;
+	height: 88%;
+	z-index: -1;
+}
+
+.form .form-inner {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	height: 80%;
+}
+
+form input {
+	width: 20rem;
+	height: 1.5rem;
+	padding-top: 1rem;
+	padding-right: 1rem;
+	padding-bottom: 1rem;
+	background-color: none; /* I have to pick another color*/
+	font-size: 20px;
+	font-family: serif;
+}
+
+#home h1 {
+	font-size: 35px;
+	font-style: italic;
+	text-align: center;
+	line-height: 40px;
+}
+
+#products {
+	margin: 10px;
+	padding-top: 4rem;
+}
+
+#products h1 {
+	font-size: 35px;
+	font-style: italic;
+	text-align: center;
+	line-height: 40px;
+}
+
+#products h2 {
+	text-align: center;
+	padding-top: 2rem;
+}
+
+#products img {
+	max-width: 40%;
+	height: auto;
+	border-radius: 60px;
+	padding-left: 30px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+button {
+	background-color: #707570;
+	color: white;
+	padding: 10px 10px;
+	font-size: 16px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.contact-us {
+	width: 250px;
+	background: #fff;
+	padding: 50px;
+	margin: 100px auto;
+	border-radius: 30px;
+}
+
+.title h1 {
+	clear: #535274;
+	letter-spacing: 5px;
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+.conact-form,
+form-items {
+	width: 100%;
+}
+
+.form-items .input {
+	width: 100%;
+	margin-bottom: 12px;
+	padding: 15px 40px;
+	box-sizing: border-box;
+	background: #ebeef1;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+
+.form-items .input .message {
+	height: 125px;
+	border-radius: 15px;
+	margin-bottom: 30px;
+	padding: 15px;
+	resize: none;
+}
+
+.btn {
+	background: #519483;
+	text-align: center;
+	clear: #fff;
+	padding: 12px 10px;
+	border-radius: 25px;
+	cursor: pointer;
+}
